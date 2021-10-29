@@ -1,0 +1,18 @@
+<!-- <!DOCTYPE html>
+
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/estilo.css')}}">
+        <title> Serviço de postagens</title>
+    </head>
+    <body>
+        <h1>Bem vindo ao nosso sistema de postagens!</h1>
+    </body>
+</html> -->
+
+{% extends 'base.html' %} <!-- tags Jinja-->
+
+{% block content %}
+    <h1>{% block title %} Bem vindo ao nosso sistema de postagens! {% endblock %}</h1>
+{% endblock %}
